@@ -12,7 +12,7 @@ public class drei {
 		double result = k2 / 2.; // Stelle 1
 		System.out.println("5 / 2 = " + result); // Ausgabe d)
 		boolean b = false;
-		System.out.println( (  b ) ? "bist falsch" : "b ist wahr" );
+		System.out.println( (  b ) ? "b ist falsch" : "b ist wahr" );
 		}
 
 	}
