@@ -26,7 +26,7 @@ public class Aufgabe3 {
 		}
 		*/
 		System.out.println( ( b == false ) ? "b ist falsch" : "b ist wahr" );
-		//System.out.println( ( b ) ? "b ist falsch" : "b ist wahr" );//
+		//System.out.println( ( b = false) ? "b ist falsch" : "b ist wahr" );//
 
 	}
 
