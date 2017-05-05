@@ -1,0 +1,12 @@
+*.iws
+*.ipr
+*.iml
+.classpath
+.project
+.settings
+bin
+/.idea/
+/libs/
+/run/
+/classes/
+out/
