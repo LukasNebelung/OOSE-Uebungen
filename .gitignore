@@ -5,8 +5,8 @@
 .project
 .settings
 bin
-/.idea/
-/libs/
-/run/
-/classes/
+.idea/
+libs/
+run/
+classes/
 out/
