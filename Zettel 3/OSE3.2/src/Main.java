@@ -2,7 +2,7 @@
  * Created by nico on 09/05/17.
  */
 public class Main {
-    public void main(String[] args){
+    public static void main(String[] args){
         Food food;
         food = new Cauliflower();
         System.out.println(food.getMeal());
