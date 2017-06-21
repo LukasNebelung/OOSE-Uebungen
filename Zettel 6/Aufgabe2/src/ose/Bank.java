@@ -25,13 +25,13 @@ public class Bank {
         }
         int veränderung = Math.round(Math.min(gesamtBeträgeKontenVorher, rücklage / 2) * (änderung / 100f));
         rücklage -= veränderung;
-        for (Konto konto : konten) {
+        /*for (Konto konto : konten) {
             if (veränderung > 0) {
                 konto.einzahlen(Math.round(veränderung / konten.size()), "Investment");
             } else {
                 konto.abheben(Math.round(veränderung / konten.size()), "Investment");
             }
-        }
+        }*/
         for (Konto konto : konten) {
             gesamtBeträgeKontenNachher += konto.getKontostand();
         }
